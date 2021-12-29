@@ -1,0 +1,26 @@
+The Jupyter Notebooks in this repository require Jupyter notebook or Jupyter lab.
+Jupyter notebooks installs with the Anaconda package 
+
+It is strongly recommended that Anaconda is installed when running these notebooks.
+
+Anaconda can be downloaded here:
+
+	https://www.anaconda.com/products/individual
+
+If the system already has Anaconda and cannot find Seaborn it will need to be installed either by upgrading Anadonda or running the following command from the command line:
+
+	conda install seaborn
+
+pyplot.ipynb
+	mplot3d ships with versions of matplotlib greater than 1.0
+
+CAO.ipynb
+
+The requests package must be installed if it is not already. It can be done by running the following command from the command line:
+
+	pip install requests
+	or
+	conda install requests
+
+	conda install -c conda-forge camelot-py
+
